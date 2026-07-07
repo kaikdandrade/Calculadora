@@ -302,6 +302,11 @@ main {
     &.off {
         border: 1px solid rgba(0, 0, 0, 0.72);
         background: black;
+        box-shadow:
+            0 26px 0 #0b0b14,
+            0 42px 62px rgba(0, 0, 0, .66),
+            inset 0 1px 0 rgba(255, 255, 255, .18),
+            inset 0 -24px 34px rgba(0, 0, 0, .32);
 
         .calc-header {
             .brand-lockup {
