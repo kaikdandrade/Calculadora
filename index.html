@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <section class="calculator off" id="calculator" aria-label="Calculadora">
+            <header class="calc-header">
+                <div class="brand-lockup">
+                    <span class="dot"></span>
+                    <div>
+                        <strong>CALCULADORA</strong>
+                        <a href="https://github.com/kaikdandrade" target="_blank">
+                            <small>Kaik D'Andrade</small>
+                        </a>
+                    </div>
+                </div>
+                <span class="status-chip">OFFLINE</span>
+            </header>
+
+            <section class="display" id="display-screen" aria-label="Tela da calculadora">
+                <span class="history-label" id="history-label" aria-label="Histórico"></span>
+                <span class="display-label" id="display-label" aria-label="Operação e ou Resultado"></span>
+            </section>
+
+            <section class="buttons-grid" aria-label="Teclado principal">
+                <button class="btn onoff" data-token="onoff">ON</button>
+                <button class="btn backspace" data-token="backspace">⌫</button>
+                <button class="btn operator" data-token="/">÷</button>
+                <button class="btn operator" data-token="*">×</button>
+
+                <button class="btn number" data-token="7">7</button>
+                <button class="btn number" data-token="8">8</button>
+                <button class="btn number" data-token="9">9</button>
+                <button class="btn operator" data-token="-">−</button>
+
+                <button class="btn number" data-token="4">4</button>
+                <button class="btn number" data-token="5">5</button>
+                <button class="btn number" data-token="6">6</button>
+                <button class="btn operator" data-token="+">+</button>
+
+                <button class="btn number" data-token="1">1</button>
+                <button class="btn number" data-token="2">2</button>
+                <button class="btn number" data-token="3">3</button>
+                <button class="btn equal" data-token="calculate">=</button>
+
+                <button class="btn number" data-token="()">()</button>
+                <button class="btn number" data-token="0">0</button>
+                <button class="btn number" data-token=".">.</button>
+            </section>
+
+            <footer class="calc-footer">
+                <p>
+                    Desenvolvido por <a href="https://github.com/kaikdandrade" target="_blank">Kaik D'Andrade</a>
+                </p>
+            </footer>
+        </section>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
